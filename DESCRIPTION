@@ -1,0 +1,29 @@
+Package: maeve
+Title: Modeling Accessories Enabling Visualization of Experiments
+Version: 0.9.9.41
+Date: 2020-08-25
+Author: Bill Forrest, Michal Jakubczak, Pawel Piatkowski
+Maintainer: Bill Forrest <forrest@gene.com>
+Description: A collection of functions for analyzing longitudinal data. Starting from an R data.frame with factors for treatment group and subject within group, along with numeric independent and dependent variables (e.g., time and response at that time), maeve facilitates fitting a linear mixed or generalized additive mixed model, then summarizing model fits into by-group summary statistics (e.g., the slope in the linear case) and comparing statistics across groups.  Accessory functions facilitate graphical exploration of raw data and summary results.  Core functions rely on 'lme4', 'gamm4', 'mgcv', and 'multcomp'.
+License: MIT + file LICENSE
+Depends: R (>= 4.0.0)
+Imports: settings    (>= 0.2.4),
+         MASS        (>= 7.3-51.6),
+	 stats       (>= 4.0.0),
+	 ggplot2     (>= 3.3.2),
+	 lme4        (>= 1.1-23),
+	 tibble      (>= 3.0.1),
+	 mgcv        (>= 1.8-31),
+	 gamm4       (>= 0.2-6),
+	 multcomp    (>= 1.4-13),
+	 magrittr    (>= 1.5),
+	 plyr        (>= 1.8.6),
+	 dplyr       (>= 1.0.0),
+	 tidyr       (>= 1.1.0),
+	 forcats     (>= 0.5.0),
+	 rlang       (>= 0.4.6),
+	 DescTools   (>= 0.99.36)
+Suggests: testthat
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

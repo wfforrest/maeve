@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+### ignore contents of any "manuscript" directory.
+/inst/manuscript/
+
+### ignore contents of any "miscellaneous" directory.
+/inst/miscellaneous/
+

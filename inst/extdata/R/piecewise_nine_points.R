@@ -1,0 +1,26 @@
+#' A data.frame with longitudinal data simulated from four piecewise linear patterns, each across a nine-point grid.
+#'
+#' Data frame with 7 columns and 432 rows with a simulated study of four groups with twelve animals each.  Each animal has a group-specific piecewise linear response pattern evaluated over the nine time points {0, 1, 2, 3, 4, 5, 6, 7, 8}. See maeve/inst/scripts/simulate_maeve_test_data.R for details.
+#'
+#' The columns are as follows:
+#' \itemize{
+#'   \item  study_id           factor five-digit DIVOS study identification number (or a simulation name)
+#'   \item  group_name         factor group label name
+#'   \item  cohort_id          factor cohort identifier
+#'   \item  animalID           factor animal identifier
+#'   \item  DAY_OF_STUDY       numeric  day of study
+#'   \item  BODY_WEIGHT        numeric  body weight in grams
+#'   \item  TUMOR_VOLUME       numeric  tumor volume calculated as ( 0.5 ) * ( TUMOR_LENGTH_X ) * ( TUMOR_LENGTH_Y )^2
+#'}
+#'
+#' @author Bill Forrest \email{forrest@@gene.com}
+#'
+#' @references \url{www.r-project.org}
+#'
+#' @docType data
+#' @keywords datasets
+#' @name piecewise_nine_points
+#' @usage data( piecewise_nine_points )
+#' @format A data frame with 7 columns and 432 rows.
+#'
+NULL

@@ -1,0 +1,26 @@
+#' A data.frame with longitudinal data simulated from known growth curves, each across a twenty-one-point grid.
+#'
+#' Data frame with 7 columns and 504 rows with a simulated study of two groups with twelve animals each.  Each animal control animal log-growth pattern follows an underlying concave quadratic, while each treatment animal log-growth follows a convex quadratic superposed with a cosine wave. This simulated set has no dropouts. See maeve/inst/scripts/simulate_maeve_test_data.R for details.
+#'
+#' The columns are as follows:
+#' \itemize{
+#'   \item  study_id           factor five-digit DIVOS study identification number (or a simulation name)
+#'   \item  group_name         factor group label name
+#'   \item  cohort_id          factor cohort identifier
+#'   \item  animalID           factor animal identifier
+#'   \item  DAY_OF_STUDY       numeric  day of study
+#'   \item  BODY_WEIGHT        numeric  body weight in grams
+#'   \item  TUMOR_VOLUME       numeric  tumor volume calculated as ( 0.5 ) * ( TUMOR_LENGTH_X ) * ( TUMOR_LENGTH_Y )^2
+#'}
+#'
+#' @author Bill Forrest \email{forrest@@gene.com}
+#'
+#' @references \url{www.r-project.org}
+#'
+#' @docType data
+#' @keywords datasets
+#' @name two_group_sim_no_dropouts
+#' @usage data( two_group_sim_no_dropouts )
+#' @format A data frame with 7 columns and 504 rows.
+#'
+NULL
